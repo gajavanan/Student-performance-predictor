@@ -1,0 +1,201 @@
+student_id,name,department,semester,age,gender,attendance,study_hours,assignment_score,internal_marks,previous_marks
+S001,Student_1,Mechanical,8,19,Female,73.6,0.5,74.8,64.3,61.0
+S002,Student_2,Civil,8,20,Female,73.1,5.6,100.0,99.3,93.4
+S003,Student_3,Electronics,8,19,Male,76.7,5.9,98.6,95.9,92.0
+S004,Student_4,Civil,1,17,Male,52.4,0.9,59.0,63.9,62.7
+S005,Student_5,Civil,4,17,Male,61.8,3.5,71.1,77.2,66.1
+S006,Student_6,Information Technology,1,21,Female,96.4,3.4,89.9,83.0,81.3
+S007,Student_7,Electronics,6,22,Male,99.7,1.9,89.1,91.3,85.0
+S008,Student_8,Electronics,1,19,Female,77.0,2.8,99.3,81.3,78.4
+S009,Student_9,Electronics,2,25,Male,86.9,2.3,82.3,72.5,87.7
+S010,Student_10,Civil,4,21,Male,83.7,6.6,100.0,100.0,94.0
+S011,Student_11,Mechanical,4,24,Male,100.0,5.4,100.0,100.0,98.5
+S012,Student_12,Electronics,6,17,Female,93.4,5.9,100.0,100.0,92.0
+S013,Student_13,Electrical Engineering,7,21,Female,78.5,5.1,100.0,95.2,88.1
+S014,Student_14,Civil,2,19,Male,68.5,2.3,74.7,72.6,69.5
+S015,Student_15,Information Technology,3,17,Male,60.7,3.2,76.4,74.4,74.8
+S016,Student_16,Mechanical,1,20,Female,82.4,4.7,100.0,100.0,90.3
+S017,Student_17,Electrical Engineering,5,21,Male,70.9,2.2,84.7,79.2,68.0
+S018,Student_18,Electrical Engineering,1,23,Female,62.9,5.1,100.0,92.8,75.1
+S019,Student_19,Information Technology,8,17,Female,72.2,3.6,91.8,90.8,68.6
+S020,Student_20,Mechanical,1,19,Male,67.0,3.4,81.1,81.5,76.8
+S021,Student_21,Civil,3,18,Male,100.0,5.1,100.0,100.0,86.3
+S022,Student_22,Computer Science,1,25,Other,90.6,4.7,100.0,96.3,77.1
+S023,Student_23,Mechanical,2,22,Male,79.9,3.5,95.8,86.5,81.7
+S024,Student_24,Information Technology,2,19,Male,97.8,5.7,100.0,100.0,100.0
+S025,Student_25,Electrical Engineering,4,24,Female,80.9,2.4,92.8,86.7,76.3
+S026,Student_26,Civil,6,24,Female,69.7,4.9,100.0,91.3,86.7
+S027,Student_27,Mechanical,7,18,Other,98.3,4.9,100.0,100.0,91.9
+S028,Student_28,Computer Science,5,22,Female,86.5,3.5,97.5,89.1,81.3
+S029,Student_29,Computer Science,8,23,Male,67.6,4.5,88.1,86.3,83.2
+S030,Student_30,Electronics,1,18,Male,77.7,2.1,82.9,66.4,71.8
+S031,Student_31,Electronics,1,18,Female,69.5,5.4,100.0,98.8,85.5
+S032,Student_32,Information Technology,3,17,Female,63.4,3.7,77.4,81.5,75.2
+S033,Student_33,Mechanical,6,24,Male,91.1,3.2,95.5,95.3,78.4
+S034,Student_34,Mechanical,2,17,Female,100.0,5.6,100.0,87.0,98.3
+S035,Student_35,Electrical Engineering,5,25,Male,63.2,2.9,80.2,89.3,70.8
+S036,Student_36,Electrical Engineering,4,22,Male,86.8,1.9,94.4,81.6,72.7
+S037,Student_37,Electrical Engineering,2,23,Male,72.2,1.7,78.7,80.7,72.5
+S038,Student_38,Electronics,8,23,Male,74.2,4.9,94.6,84.6,78.0
+S039,Student_39,Mechanical,6,19,Male,72.9,2.1,68.7,77.6,69.9
+S040,Student_40,Mechanical,8,18,Male,69.6,6.6,100.0,92.5,88.3
+S041,Student_41,Computer Science,7,25,Male,80.6,0.9,81.8,70.3,75.5
+S042,Student_42,Electronics,4,24,Female,70.0,6.5,100.0,100.0,92.2
+S043,Student_43,Civil,7,23,Female,83.2,4.3,92.4,89.6,82.5
+S044,Student_44,Electronics,3,25,Female,79.4,3.9,92.8,89.1,84.4
+S045,Student_45,Civil,8,20,Other,77.1,3.2,88.8,88.8,84.1
+S046,Student_46,Computer Science,3,20,Male,69.1,4.6,100.0,92.8,84.4
+S047,Student_47,Information Technology,1,17,Male,73.1,3.9,88.2,86.2,78.4
+S048,Student_48,Mechanical,7,24,Female,89.1,5.7,100.0,100.0,83.6
+S049,Student_49,Computer Science,6,19,Male,86.0,4.2,100.0,100.0,78.7
+S050,Student_50,Mechanical,8,23,Other,68.3,4.2,89.9,85.0,76.7
+S051,Student_51,Electrical Engineering,5,18,Male,81.2,3.5,86.2,86.6,75.5
+S052,Student_52,Information Technology,4,18,Other,89.0,3.9,96.7,98.0,82.6
+S053,Student_53,Information Technology,2,23,Male,60.0,4.5,94.9,91.4,77.9
+S054,Student_54,Computer Science,6,22,Female,86.5,1.4,73.6,83.5,74.6
+S055,Student_55,Information Technology,6,19,Female,72.0,2.0,79.8,79.3,70.6
+S056,Student_56,Civil,3,25,Other,86.8,5.1,94.7,88.6,88.7
+S057,Student_57,Information Technology,7,22,Male,70.8,4.3,99.2,97.9,80.7
+S058,Student_58,Mechanical,8,22,Female,58.3,3.7,69.8,69.5,61.3
+S059,Student_59,Mechanical,8,17,Other,60.5,4.0,79.9,82.0,69.5
+S060,Student_60,Mechanical,1,20,Female,80.6,4.5,97.9,87.3,82.7
+S061,Student_61,Mechanical,1,22,Female,83.1,3.2,100.0,87.7,74.6
+S062,Student_62,Civil,4,22,Female,69.1,2.8,81.3,80.3,76.0
+S063,Student_63,Electronics,3,21,Male,87.7,4.3,92.1,93.8,91.3
+S064,Student_64,Electrical Engineering,6,17,Female,60.1,2.5,91.7,79.0,77.5
+S065,Student_65,Computer Science,8,24,Female,79.2,4.6,83.2,98.5,80.0
+S066,Student_66,Mechanical,5,21,Female,65.5,1.4,55.8,69.3,71.5
+S067,Student_67,Information Technology,3,21,Male,72.2,5.5,100.0,92.4,85.4
+S068,Student_68,Mechanical,4,23,Male,80.6,4.7,91.8,97.1,81.3
+S069,Student_69,Information Technology,4,20,Other,69.7,4.4,81.6,91.9,74.7
+S070,Student_70,Electrical Engineering,3,22,Female,75.4,5.5,100.0,87.8,84.2
+S071,Student_71,Electrical Engineering,4,20,Male,92.1,6.5,100.0,100.0,92.3
+S072,Student_72,Electrical Engineering,3,19,Female,73.1,5.5,92.3,96.7,84.5
+S073,Student_73,Information Technology,2,23,Male,90.0,1.2,72.0,74.6,72.8
+S074,Student_74,Mechanical,3,24,Male,66.4,2.1,84.0,83.3,70.5
+S075,Student_75,Electrical Engineering,7,20,Male,86.4,3.1,95.1,86.3,82.2
+S076,Student_76,Civil,3,18,Male,97.3,4.0,98.3,95.8,92.1
+S077,Student_77,Information Technology,4,19,Female,50.3,4.8,98.8,82.9,81.5
+S078,Student_78,Information Technology,8,17,Male,70.4,2.9,74.2,77.7,65.0
+S079,Student_79,Mechanical,7,24,Other,86.9,4.3,84.0,83.4,69.4
+S080,Student_80,Information Technology,4,19,Other,77.6,2.9,79.8,72.1,79.6
+S081,Student_81,Information Technology,1,23,Female,84.5,3.1,88.8,95.0,71.9
+S082,Student_82,Electrical Engineering,1,21,Female,72.8,1.9,80.5,70.4,69.8
+S083,Student_83,Mechanical,8,21,Male,81.0,2.6,83.6,75.5,69.8
+S084,Student_84,Electrical Engineering,8,23,Female,78.1,2.0,83.9,65.2,64.0
+S085,Student_85,Electrical Engineering,7,25,Female,94.0,2.5,80.3,80.6,80.9
+S086,Student_86,Mechanical,2,21,Male,83.1,5.6,100.0,91.8,93.2
+S087,Student_87,Computer Science,8,17,Female,84.1,2.6,85.8,92.5,73.7
+S088,Student_88,Electrical Engineering,1,17,Female,75.1,7.9,100.0,100.0,82.5
+S089,Student_89,Civil,3,18,Female,74.1,4.7,96.1,86.3,79.4
+S090,Student_90,Civil,4,22,Female,74.8,4.3,95.0,100.0,82.7
+S091,Student_91,Information Technology,1,25,Female,84.7,2.7,92.0,90.6,70.7
+S092,Student_92,Civil,1,24,Male,74.9,5.1,98.8,90.5,84.6
+S093,Student_93,Information Technology,2,21,Female,83.5,3.1,94.2,71.4,79.3
+S094,Student_94,Computer Science,7,17,Female,100.0,4.2,100.0,100.0,93.7
+S095,Student_95,Mechanical,7,23,Male,90.5,7.8,100.0,100.0,99.3
+S096,Student_96,Mechanical,6,21,Male,76.1,3.9,95.4,77.5,75.0
+S097,Student_97,Mechanical,2,22,Male,94.4,5.7,100.0,100.0,97.6
+S098,Student_98,Civil,3,23,Female,75.1,2.9,96.3,98.2,76.3
+S099,Student_99,Computer Science,7,19,Other,55.5,3.9,76.5,86.1,72.1
+S100,Student_100,Civil,4,19,Male,67.9,6.7,100.0,100.0,84.5
+S101,Student_101,Civil,8,21,Female,57.6,3.1,78.0,78.7,68.0
+S102,Student_102,Computer Science,2,22,Male,75.8,6.7,92.5,100.0,83.5
+S103,Student_103,Computer Science,8,25,Other,80.2,5.1,98.4,98.6,84.1
+S104,Student_104,Computer Science,1,21,Female,100.0,3.2,90.4,92.4,91.6
+S105,Student_105,Computer Science,4,17,Female,83.9,4.9,100.0,96.6,79.7
+S106,Student_106,Mechanical,4,20,Male,77.4,5.5,93.0,93.3,76.6
+S107,Student_107,Electronics,1,21,Male,90.0,4.9,97.1,91.6,94.2
+S108,Student_108,Electronics,2,21,Male,53.5,1.6,54.5,61.8,60.4
+S109,Student_109,Computer Science,1,23,Male,82.8,2.9,84.1,73.1,73.7
+S110,Student_110,Electronics,8,20,Female,89.3,3.6,74.5,85.6,84.6
+S111,Student_111,Electronics,6,17,Female,62.3,3.9,71.7,72.6,70.0
+S112,Student_112,Computer Science,4,21,Other,93.7,4.9,100.0,92.9,98.6
+S113,Student_113,Electronics,5,23,Other,84.1,4.3,100.0,93.6,87.4
+S114,Student_114,Civil,5,22,Female,75.0,2.0,83.4,85.5,69.8
+S115,Student_115,Information Technology,8,21,Female,87.6,4.6,90.2,98.1,94.9
+S116,Student_116,Information Technology,3,20,Female,100.0,4.9,100.0,93.8,89.6
+S117,Student_117,Computer Science,7,18,Female,82.2,4.8,97.0,87.5,88.3
+S118,Student_118,Mechanical,1,20,Male,83.0,5.6,92.0,100.0,87.9
+S119,Student_119,Computer Science,1,19,Male,74.5,5.3,100.0,89.1,92.1
+S120,Student_120,Mechanical,3,17,Male,69.8,4.7,98.4,88.0,89.1
+S121,Student_121,Information Technology,3,24,Other,90.0,3.9,93.7,94.6,83.4
+S122,Student_122,Computer Science,8,21,Female,69.7,1.5,75.6,66.3,64.5
+S123,Student_123,Electrical Engineering,8,20,Male,80.9,4.6,97.2,92.9,86.0
+S124,Student_124,Civil,3,24,Female,74.3,4.3,74.9,76.5,74.4
+S125,Student_125,Electronics,4,23,Female,85.7,4.4,94.4,88.6,93.9
+S126,Student_126,Mechanical,8,18,Male,84.0,2.1,78.6,81.2,74.7
+S127,Student_127,Electrical Engineering,6,17,Male,92.5,2.4,80.9,73.9,75.6
+S128,Student_128,Electronics,8,20,Female,73.9,5.6,95.2,96.2,85.4
+S129,Student_129,Electronics,1,24,Female,76.8,3.9,100.0,89.6,75.0
+S130,Student_130,Computer Science,8,18,Female,68.3,5.0,97.5,93.4,76.9
+S131,Student_131,Electronics,4,19,Female,74.7,4.0,85.5,87.0,84.6
+S132,Student_132,Civil,3,17,Female,84.5,4.0,98.6,99.4,79.8
+S133,Student_133,Electrical Engineering,1,17,Female,89.1,5.4,100.0,100.0,85.3
+S134,Student_134,Electronics,8,19,Female,68.9,3.2,91.1,79.2,78.3
+S135,Student_135,Computer Science,4,21,Female,90.4,4.1,97.4,93.9,90.6
+S136,Student_136,Civil,6,19,Male,96.3,3.3,89.9,93.3,86.1
+S137,Student_137,Information Technology,8,17,Male,85.0,3.3,96.3,88.4,85.7
+S138,Student_138,Electrical Engineering,4,17,Male,100.0,3.5,100.0,95.5,82.7
+S139,Student_139,Electronics,6,24,Female,70.7,4.3,97.1,83.8,73.1
+S140,Student_140,Computer Science,3,18,Female,65.1,3.3,87.5,76.2,81.7
+S141,Student_141,Information Technology,8,19,Female,58.7,5.9,100.0,83.0,80.9
+S142,Student_142,Information Technology,6,18,Male,98.0,2.7,88.2,98.2,79.4
+S143,Student_143,Mechanical,1,19,Male,87.9,3.7,100.0,84.6,90.4
+S144,Student_144,Civil,3,23,Male,79.3,3.3,90.0,81.0,81.1
+S145,Student_145,Electronics,1,17,Male,83.4,6.2,100.0,99.5,94.8
+S146,Student_146,Computer Science,5,24,Female,66.5,4.3,82.6,89.0,87.7
+S147,Student_147,Mechanical,2,18,Male,100.0,5.5,100.0,100.0,94.6
+S148,Student_148,Civil,8,19,Male,81.6,1.8,83.1,85.7,77.8
+S149,Student_149,Mechanical,6,25,Female,81.3,4.4,89.3,85.8,82.2
+S150,Student_150,Electrical Engineering,2,23,Male,88.7,5.3,98.3,99.3,89.3
+S151,Student_151,Civil,2,20,Female,85.8,4.1,92.4,85.7,90.3
+S152,Student_152,Civil,6,21,Female,82.7,5.6,100.0,100.0,90.7
+S153,Student_153,Electronics,3,18,Male,70.5,3.2,88.5,74.6,78.3
+S154,Student_154,Civil,8,24,Female,85.7,6.1,100.0,100.0,95.2
+S155,Student_155,Mechanical,5,20,Female,100.0,7.4,100.0,100.0,98.9
+S156,Student_156,Civil,1,25,Female,96.1,3.5,100.0,97.7,82.1
+S157,Student_157,Electronics,4,21,Male,99.1,3.3,100.0,94.0,81.1
+S158,Student_158,Electronics,1,25,Female,73.9,6.2,100.0,96.9,77.8
+S159,Student_159,Electrical Engineering,4,20,Male,68.1,6.4,99.4,96.1,96.3
+S160,Student_160,Mechanical,1,21,Male,78.5,3.2,88.4,83.2,72.0
+S161,Student_161,Information Technology,6,25,Male,80.7,3.4,94.0,92.3,78.3
+S162,Student_162,Information Technology,5,24,Other,93.1,3.6,87.0,100.0,80.7
+S163,Student_163,Civil,8,19,Male,59.7,2.0,71.7,66.8,68.2
+S164,Student_164,Electrical Engineering,4,17,Male,98.4,2.6,79.1,77.6,83.4
+S165,Student_165,Computer Science,8,19,Female,78.1,2.5,86.9,80.3,79.3
+S166,Student_166,Civil,8,20,Male,74.9,2.8,89.4,97.2,72.8
+S167,Student_167,Electrical Engineering,8,18,Male,67.9,3.9,83.0,77.9,75.4
+S168,Student_168,Mechanical,7,17,Male,60.1,4.4,98.4,95.0,79.3
+S169,Student_169,Mechanical,3,23,Male,89.9,6.3,97.8,100.0,89.9
+S170,Student_170,Mechanical,1,24,Male,80.9,2.5,73.1,75.6,81.7
+S171,Student_171,Mechanical,8,23,Male,64.5,5.5,95.0,93.7,84.3
+S172,Student_172,Mechanical,1,21,Female,64.5,3.7,92.6,92.3,79.7
+S173,Student_173,Electrical Engineering,8,17,Male,76.0,3.9,100.0,86.9,84.6
+S174,Student_174,Electrical Engineering,4,23,Male,100.0,5.0,100.0,99.1,96.1
+S175,Student_175,Electronics,3,23,Female,76.9,2.3,91.0,77.0,75.7
+S176,Student_176,Information Technology,3,25,Male,62.0,4.6,87.3,78.3,70.8
+S177,Student_177,Mechanical,6,19,Female,77.1,4.2,90.7,84.4,82.6
+S178,Student_178,Computer Science,7,25,Male,76.7,4.7,100.0,84.9,80.4
+S179,Student_179,Electrical Engineering,6,17,Male,47.6,4.4,86.4,79.5,70.5
+S180,Student_180,Computer Science,6,17,Male,79.3,7.7,97.5,99.4,95.4
+S181,Student_181,Computer Science,6,20,Male,77.2,3.0,97.9,86.3,84.3
+S182,Student_182,Computer Science,6,25,Male,88.4,3.2,100.0,80.5,82.2
+S183,Student_183,Electronics,6,22,Male,100.0,3.1,91.2,93.1,85.0
+S184,Student_184,Electrical Engineering,5,19,Male,93.5,3.2,96.4,95.0,90.9
+S185,Student_185,Computer Science,3,17,Male,76.8,3.0,89.9,71.2,78.0
+S186,Student_186,Mechanical,6,20,Male,66.7,5.8,97.7,94.9,96.7
+S187,Student_187,Civil,8,25,Male,100.0,6.1,100.0,100.0,100.0
+S188,Student_188,Computer Science,3,19,Male,80.7,3.1,82.6,76.1,68.2
+S189,Student_189,Electronics,3,25,Female,80.2,2.8,85.6,92.2,79.9
+S190,Student_190,Electrical Engineering,2,23,Female,79.7,4.7,100.0,96.2,86.7
+S191,Student_191,Electronics,5,20,Male,82.4,3.2,93.2,81.8,85.5
+S192,Student_192,Computer Science,6,19,Female,78.3,4.9,93.1,91.6,86.7
+S193,Student_193,Electrical Engineering,1,21,Female,73.1,4.3,96.9,91.9,80.0
+S194,Student_194,Civil,4,21,Male,73.4,1.7,55.2,70.4,60.7
+S195,Student_195,Computer Science,7,19,Female,79.6,6.3,100.0,100.0,89.7
+S196,Student_196,Electronics,8,25,Female,73.5,6.7,88.9,91.1,82.5
+S197,Student_197,Information Technology,1,20,Male,71.4,3.1,81.1,81.0,71.4
+S198,Student_198,Mechanical,5,21,Male,81.3,3.4,80.6,75.7,80.6
+S199,Student_199,Electronics,4,20,Female,76.9,4.4,82.6,86.6,88.3
+S200,Student_200,Electrical Engineering,5,21,Female,98.0,4.5,100.0,94.2,91.6

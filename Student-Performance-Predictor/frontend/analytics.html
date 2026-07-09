@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analytics - Student Performance Predictor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="dashboard-wrapper">
+        <div class="sidebar-overlay" id="sidebarOverlay"></div>
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header"><h3><i class="fas fa-graduation-cap"></i> SPP</h3><small class="text-muted">Performance Predictor</small></div>
+            <nav class="sidebar-nav">
+                <a href="dashboard.html" class="nav-item"><i class="fas fa-th-large"></i> Dashboard</a>
+                <a href="students.html" class="nav-item"><i class="fas fa-users"></i> Students</a>
+                <a href="prediction.html" class="nav-item"><i class="fas fa-robot"></i> Predictions</a>
+                <a href="analytics.html" class="nav-item active"><i class="fas fa-chart-bar"></i> Analytics</a>
+                <a href="reports.html" class="nav-item"><i class="fas fa-file-alt"></i> Reports</a>
+            </nav>
+            <div class="sidebar-footer">
+                <div class="d-flex align-items-center gap-2">
+                    <div class="user-avatar" id="sidebarAvatar">U</div>
+                    <div><div class="fw-semibold small" id="sidebarName">User</div><div class="small text-muted" id="sidebarRole">Faculty</div></div>
+                    <button class="btn btn-sm text-danger ms-auto" onclick="logout()"><i class="fas fa-sign-out-alt"></i></button>
+                </div>
+            </div>
+        </aside>
+        <main class="main-content">
+            <div class="topbar">
+                <div class="topbar-left">
+                    <button class="mobile-toggle" onclick="toggleSidebar()"><i class="fas fa-bars"></i></button>
+                    <h4>Analytics</h4>
+                </div>
+                <div class="topbar-right">
+                    <button class="btn-icon" onclick="toggleTheme()"><i class="fas fa-moon" id="themeIcon"></i></button>
+                    <div class="user-avatar" id="topbarAvatar">U</div>
+                </div>
+            </div>
+
+            <div class="tabs">
+                <button class="tab active" onclick="switchAnalyticsTab('overview', this)"><i class="fas fa-chart-pie me-1"></i> Overview</button>
+                <button class="tab" onclick="switchAnalyticsTab('students', this)"><i class="fas fa-users me-1"></i> Student Analysis</button>
+                <button class="tab" onclick="switchAnalyticsTab('department', this)"><i class="fas fa-building me-1"></i> Department</button>
+                <button class="tab" onclick="switchAnalyticsTab('ml', this)"><i class="fas fa-brain me-1"></i> ML Models</button>
+            </div>
+
+            <div id="analyticsOverview">
+                <div class="row g-3 mb-4">
+                    <div class="col-lg-6"><div class="chart-container"><h6 class="fw-semibold mb-3"><i class="fas fa-chart-bar me-2 text-primary"></i>Performance Distribution</h6><canvas id="analyticsPerfChart"></canvas></div></div>
+                    <div class="col-lg-6"><div class="chart-container"><h6 class="fw-semibold mb-3"><i class="fas fa-chart-line me-2 text-success"></i>Marks Comparison</h6><canvas id="analyticsMarksChart"></canvas></div></div>
+                </div>
+                <div class="row g-3 mb-4">
+                    <div class="col-lg-4"><div class="chart-container"><h6 class="fw-semibold mb-3"><i class="fas fa-thermometer-half me-2 text-warning"></i>Attendance Analysis</h6><canvas id="analyticsAttendChart"></canvas></div></div>
+                    <div class="col-lg-4"><div class="chart-container"><h6 class="fw-semibold mb-3"><i class="fas fa-chart-pie me-2 text-info"></i>Department Performance</h6><canvas id="analyticsDeptChart"></canvas></div></div>
+                    <div class="col-lg-4"><div class="chart-container"><h6 class="fw-semibold mb-3"><i class="fas fa-th me-2 text-danger"></i>Correlation Matrix</h6><canvas id="analyticsCorrChart"></canvas></div></div>
+                </div>
+            </div>
+
+            <div id="analyticsStudents" style="display:none;">
+                <div class="chart-container mb-3">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h6 class="mb-0"><i class="fas fa-chart-bar me-2 text-primary"></i>Student Statistics</h6>
+                        <div class="filter-group">
+                            <select class="form-select form-select-sm" id="statColumn" onchange="loadStudentStats()">
+                                <option value="attendance">Attendance</option>
+                                <option value="study_hours">Study Hours</option>
+                                <option value="assignment_score">Assignment Score</option>
+                                <option value="internal_marks">Internal Marks</option>
+                                <option value="previous_marks">Previous Marks</option>
+                            </select>
+                        </div>
+                    </div>
+                    <canvas id="studentStatsChart"></canvas>
+                </div>
+                <div class="row g-3" id="statsCards"></div>
+            </div>
+
+            <div id="analyticsDepartment" style="display:none;">
+                <div class="chart-container">
+                    <h6 class="fw-semibold mb-3"><i class="fas fa-building me-2 text-primary"></i>Department-wise Performance</h6>
+                    <div id="deptAnalyticsContent"></div>
+                </div>
+            </div>
+
+            <div id="analyticsML" style="display:none;">
+                <div class="chart-container">
+                    <h6 class="fw-semibold mb-3"><i class="fas fa-brain me-2 text-primary"></i>ML Model Performance</h6>
+                    <div id="mlAnalyticsContent"><p class="text-muted">No models trained yet.</p></div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div class="toast-container" id="notifContainer"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/charts.js"></script>
+    <script src="js/analytics.js"></script>
+</body>
+</html>
